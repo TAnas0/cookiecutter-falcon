@@ -90,3 +90,6 @@ ENV/
 
 # VSCode folder
 .vscode/
+
+# Generated project for testing
+generated_project/
