@@ -11,11 +11,11 @@ import falcon
 from {{ cookiecutter.project_slug }} import settings
 
 
-class SampleResource(object):
+class ExampleResource(object):
     """ Just a sample resource model to
     test the falcon app"""
 
     @staticmethod
-    def on_post(req, resp):
+    def on_get(req, resp):
         resp.status = falcon.HTTP_200
         resp.body = json.dumps({'OK': 'This is just a test'})

@@ -7,16 +7,16 @@ App runner
 import falcon
 
 # Local imports
-from {{ cookiecutter.project_slug }}.sample.models import SampleResource
+from {{ cookiecutter.project_slug }}.resources.example import ExampleResource
 
 
 # Create resources
-sample_resource = SampleResource()
+sample_resource = ExampleResource()
 
 
 # Create falcon app
 app = falcon.API()
-app.add_route('/sample_resource', sample_resource)
+app.add_route('/example', example_resource)
 
 
 # Useful for debugging problems in API, it works with pdb
