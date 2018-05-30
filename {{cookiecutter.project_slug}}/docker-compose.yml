@@ -25,5 +25,5 @@ services:
   redisdb:
     image: redis
     ports:
-      - "4379:6379"
+      - "6379:6379"
 {% endif %}{% endif %}
