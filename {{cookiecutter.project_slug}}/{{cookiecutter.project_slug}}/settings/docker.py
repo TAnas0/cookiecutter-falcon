@@ -11,7 +11,7 @@ from redis import StrictRedis
 {% endif %}
 
 # Local imports
-from base import *
+from .base import *  # Needs to be removed
 
 
 {% if cookiecutter.use_mongodb == "y" %}
