@@ -94,4 +94,4 @@ ENV/
 # Generated project for testing
 generated_project/
 
-./todos.txt
+todos.txt
