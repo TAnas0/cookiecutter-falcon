@@ -4,7 +4,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ADD . /usr/src/app
-RUN ["python", "setup.py", "develop"]
+RUN pip install -r requirements/requirements.txt
 
 RUN mkdir -p docker/api/
 
