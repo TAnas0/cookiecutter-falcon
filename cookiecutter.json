@@ -7,6 +7,9 @@
     "project_url": "example.com",
     "use_docker": "y",
     "use_mongodb": "y",
+    "postgres_user": "postgres",
+    "postgres_password": "password",
+    "postgres_db": "name of the database",
     "use_redisdb": "y",
     "open_source_license": ["MIT", "BSD", "GPLv3", "Apache Software License 2.0", "Not open source"]
 }
