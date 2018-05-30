@@ -11,7 +11,7 @@ from {{ cookiecutter.project_slug }}.resources.example import ExampleResource
 
 
 # Create resources
-sample_resource = ExampleResource()
+example_resource = ExampleResource()
 
 
 # Create falcon app

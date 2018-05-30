@@ -1,0 +1,24 @@
+Readme for the cookiecutter and change the Readme.rst of the generated project.
+
+Initialize git repository after creation in hooks.
+
+Use docker version 3 instead of 2
+
+Add an env file (maybe configured in questions):
+    - name of the database
+
+Remove mongodb related config and replace it with Postgersql with Timescale/PostGIS support.
+
+Add support for SQLAlchemy:
+    - https://eshlox.net/2017/07/28/integrate-sqlalchemy-with-falcon-framework/
+
+Add a dummy test
+
+Add mocking of database
+
+...
+
+
+
+Figure out this error:
+    - IOError: Can not access file in context: /home/ta/github/cookiecutter-falcon/generated_project/data
