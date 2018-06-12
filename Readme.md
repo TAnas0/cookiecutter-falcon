@@ -23,8 +23,10 @@ This is the directory structure of the generated project using this template:
 
 #### To-do
 - Change the Readme in the generated project.
+- Add SQLAlchemy/peewee support
 - Add documentation
-- Adding tests
+- Add support for tests (unittest and pytest) and Factory Boy
+- Add tests of the template
 
 #### Contributing
 
