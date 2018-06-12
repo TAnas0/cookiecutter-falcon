@@ -4,6 +4,7 @@ Does the following:
     1. Remove docker files if docker won't be used.
 """
 # System imports
+from subprocess import call
 import os
 import shutil
 
@@ -38,3 +39,6 @@ def remove_docker_files(project_directory):
 # 1. Remove docker files
 if '{{ cookiecutter.use_docker }}'.lower() == 'n':
     remove_docker_files(PROJECT_DIRECTORY)
+
+# 2. Initialize git repository
+call(["git", "init"])
