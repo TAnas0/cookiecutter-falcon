@@ -6,6 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: '/{{cookiecutter.project_slug}}/requirements' # Location of package manifests
+    directory: |
+      /{{cookiecutter.project_slug}}/requirements
     schedule:
       interval: "weekly"
